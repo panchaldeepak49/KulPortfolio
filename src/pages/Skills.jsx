@@ -12,7 +12,7 @@ const Skills = () => {
     <p className='h-[1px] bg-red-600 w-[90%] mt-5 '></p></div> 
     <p className='text-white text-xl px-8'>Major Skill Set :</p>
     {/* <p className='text-white text-lg px-8'>Embedded Linux</p> */}
-    <ul className='list-disc mt-5 text-white text-lg pl-10 sm:pl-14 pb-10'>
+    <ul className='list-disc mt-5 text-white text-base sm:text-lg pl-10 sm:pl-14 pb-10'>
       <li>Embedded Linux (4 yrs)</li>
       <li className='mt-1'>C, Linux, Networking (8 yrs)</li>
       <li className='mt-1'>Embedded Firmware (3 yrs)</li>

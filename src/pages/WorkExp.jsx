@@ -35,7 +35,7 @@ const WorkExp = () => {
         <div className='w-[60%]'>
          <p className='font-Dancing pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
          <p className='font-Dancing mt-2  pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Employment Duration :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs font-Syne sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
@@ -65,7 +65,7 @@ const WorkExp = () => {
         <div className=' w-[60%]'>
          <p className='font-Dancing pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Employment Duration :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs font-Syne sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
@@ -94,7 +94,7 @@ const WorkExp = () => {
         <div className=' w-[60%]'>
          <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Employment Duration :</p>
-         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
@@ -148,17 +148,17 @@ const WorkExp = () => {
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
          <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Employment Duration :</p>
          <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>HCL Technologies Ltd</span>, Chennai India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>March,2016 to Aug,2018 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>HCL Technologies Ltd</span>, Chennai India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>March,2016 to Aug,2018 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200  rounded-md'>Senior Software Engineer</p>
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button>
@@ -200,17 +200,17 @@ const WorkExp = () => {
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
          <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>July,2012 to Jan,2016 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2014 to June,2014 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>March,2014 to June,2014 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button>
@@ -226,17 +226,17 @@ const WorkExp = () => {
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
          <p className='font-Dancing pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
-         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Work Duration :</p>
          <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>July,2012 to Jan,2016 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins font'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to March,2014 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>July,2012 to March,2014 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ?  
             <Button text={'Know more'}></Button>
