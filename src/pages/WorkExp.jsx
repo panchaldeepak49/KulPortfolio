@@ -183,7 +183,7 @@ const WorkExp = () => {
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md flex'><span className='font-Poppins '>Pulse Comm. System Pvt Ltd,</span><span className='hidden sm:block ml-1'>New Delhi &nbsp;</span> India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md '><span className='font-Poppins '>Pulse Communications System Pvt Ltd,</span>New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>June,2014 to Jan,2016 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ? 
@@ -209,7 +209,7 @@ const WorkExp = () => {
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md flex'><span className='font-Poppins '>Pulse Comm. System Pvt Ltd,</span><span className='hidden sm:block ml-1'>New Delhi &nbsp;</span>India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd ,</span> New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2014 to June,2014 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ? 
@@ -235,7 +235,7 @@ const WorkExp = () => {
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
             <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md flex'><span className='font-Poppins font'>Pulse Comm. System Pvt Ltd,</span><span className='hidden sm:block ml-1'>New Delhi &nbsp;</span> India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins font'>Pulse Communications System Pvt Ltd ,</span> New Delhi India</p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>July,2012 to March,2014 </p>
             <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ?  
