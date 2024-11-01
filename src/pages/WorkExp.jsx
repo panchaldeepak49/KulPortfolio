@@ -33,19 +33,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className='w-[60%]'>
-         <p className='font- pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
-         <p className='mt-2  pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 text-xs font-Syne sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2  pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs font-Syne sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-red-200 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>GAK Enterprise Limited</span>, Milton Keynes United Kingdom</p>
-            <p className='pl-2 text-xs mt-2 sm:text-lg bg-red-200 rounded-md'>02 Dec,2020 to till</p>
-            <p className='pl-2 text-xs mt-2 sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Sky PLC</span>, Brentwood United Kingdom</p>
-            <p className='pl-2 text-xs mt-2 sm:text-lg bg-red-200 rounded-md'>02 Dec,2020 to till</p>
-            <p className='pl-2 text-xs mt-2 sm:text-lg bg-green-200 font-semibold rounded-md'>Senior Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins'>GAK Enterprise Limited</span>, Milton Keynes United Kingdom</p>
+            <p className='font-Poppins pl-2 text-xs mt-2 sm:text-lg bg-red-200 rounded-md'>02 Dec,2020 to till</p>
+            <p className='font-Poppins pl-2 text-xs mt-2 sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins'>Sky PLC</span>, Brentwood United Kingdom</p>
+            <p className='font-Poppins pl-2 text-xs mt-2 sm:text-lg bg-red-200 rounded-md'>02 Dec,2020 to till</p>
+            <p className='font-Poppins pl-2 text-xs mt-2 sm:text-lg bg-green-200 rounded-md'>Senior Software Engineer</p>
             
             { window.innerWidth > 600 ? 
             <Button showModal={showModal1} setShowModal={setShowModal1} text={'Know more'}></Button>
@@ -63,19 +63,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 text-xs font-Syne sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs font-Syne sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Infinera India Pvt Ltd</span>, Banglore India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Sept,2019 to Nov,2020 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Infinera India Pvt Ltd</span>, Banglore India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Sept,2019 to Nov,2020</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Senior Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Infinera India Pvt Ltd</span>, Banglore India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Sept,2019 to Nov,2020 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Infinera India Pvt Ltd</span>, Banglore India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-yellow-200 rounded-md'>Sept,2019 to Nov,2020</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Senior Software Engineer</p>
             
             { window.innerWidth > 600 ? 
             <Button showModal={showModal2} setShowModal={setShowModal2} text={'Know more'}></Button>
@@ -92,19 +92,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>L & T Technologies Services</span>, Chennai India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Sept,2018 to Sept,2019 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Intel Technologies</span>, Banglore India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>May,2019 to Sept,2019</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Senior Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>L & T Technologies Services</span>, Chennai India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>Sept,2018 to Sept,2019 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Intel Technologies</span>, Banglore India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-[#fc862b] rounded-md'>May,2019 to Sept,2019</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'>Senior Software Engineer</p>
             
             { window.innerWidth > 600 ? 
             <Button showModal={showModal3} setShowModal={setShowModal3} text={'Know more'}></Button>
@@ -120,19 +120,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>L & T Technologies Services</span>, Chennai India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Sept,2018 to Sept,2019 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Nokia Technologies</span>, Chennai India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Sept,2018 to May,2019 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Senior Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins'>L & T Technologies Services</span>, Chennai India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Sept,2018 to Sept,2019 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins'>Nokia Technologies</span>, Chennai India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Sept,2018 to May,2019 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Senior Software Engineer</p>
             
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button> 
@@ -147,19 +147,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>HCL Technologies Ltd</span>, Chennai India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>HCL Technologies Ltd</span>, Chennai India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Senior Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>HCL Technologies Ltd</span>, Chennai India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>HCL Technologies Ltd</span>, Chennai India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2016 to Aug,2018 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200  rounded-md'>Senior Software Engineer</p>
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button>
             : " " }
@@ -173,19 +173,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>June,2014 to Jan,2016 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>June,2014 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button>
             : " " }
@@ -199,19 +199,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]   sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-green-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2014 to June,2014 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>March,2014 to June,2014 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ? 
             <Button text={'Know more'}></Button>
             : " " }
@@ -225,19 +225,19 @@ const WorkExp = () => {
     <div className='grid grid-cols-2 bg-black w-[95%]  sm:w-[80%] rounded-xl  py-6 px-4 sm:px-10 shadow-xl
      bg-cover' data-aos="zoom-in" >
         <div className=' w-[60%]'>
-         <p className='font-Syne pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
-         <p className='mt-2 pl-2 font-Syne text-xs sm:text-lg bg-green-200 rounded-md'>Client Name :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
-         <p className='mt-2 pl-2 text-xs sm:text-lg bg-green-200 rounded-md'>Designation :</p>
+         <p className='font-Dancing pl-2  text-xs sm:text-lg bg-blue-200 rounded-md'>Company Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Employment Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 font-Syne text-xs sm:text-lg bg-blue-200 rounded-md'>Client Name :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-orange-300 rounded-md'>Work Duration :</p>
+         <p className='font-Dancing mt-2 pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Designation :</p>
         </div>
 
         <div className=' w-[120%] -ml-8 sm:-ml-32 '>
-            <p className='pl-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 rounded-md'><span className='font-semibold'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to March,2014 </p>
-            <p className='pl-2 mt-2 text-xs sm:text-lg bg-green-200 font-semibold rounded-md'>Software Engineer</p>
+            <p className='font-Poppins pl-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins '>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to Jan,2016 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'><span className='font-Poppins font'>Pulse Communications System Pvt Ltd</span>, New Delhi India</p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-orange-300 rounded-md'>July,2012 to March,2014 </p>
+            <p className='font-Poppins pl-2 mt-2 text-xs sm:text-lg bg-blue-200 rounded-md'>Software Engineer</p>
             { window.innerWidth > 600 ?  
             <Button text={'Know more'}></Button>
             : " " }

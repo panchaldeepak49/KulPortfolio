@@ -36,18 +36,18 @@ const Navbar = () => {
 
 
    const goToBtnProject = ()=>{
-    window.scrollTo({ top: 2555, behavior : "smooth" })
+    window.scrollTo({ top: 2605, behavior : "smooth" })
    }
    const goToBtnProjectMb = ()=>{
-    window.scrollTo({ top: 3390, behavior : "smooth" })
+    window.scrollTo({ top: 3440, behavior : "smooth" })
    }
 
    const goToBtnContact = ()=>{
-    window.scrollTo({ top: 4410, behavior : "smooth" })
+    window.scrollTo({ top: 4860, behavior : "smooth" })
    }
 
    const goToBtnContactMb = ()=>{
-    window.scrollTo({ top: 4800, behavior : "smooth" })
+    window.scrollTo({ top: 4850, behavior : "smooth" })
    }
 
 
@@ -58,7 +58,7 @@ const Navbar = () => {
         <p className='ml-5 sm:ml-10 font-semibold text-[1.25rem] sm:text-[2rem] text-white hover:text-orange-500 cursor-pointer transition-all ease-in duration-200' onClick={goToBtnHome}>KPortfolio</p>
 
      <nav>
-     <span className='text-3xl max-[400px]:text-2xl sm:hidden block cursor-pointer ml-20 mr-4 mt-48' onClick={toggleMenu}>
+     <span className='text-3xl max-[400px]:text-2xl sm:hidden block cursor-pointer ml-20 mr-4 mt-40' onClick={toggleMenu}>
         {isMainMenuOpen ? <RxCross2 /> : <AiOutlineMenu />}
         </span>
 
@@ -75,15 +75,14 @@ const Navbar = () => {
                             )}
         </li>
        
-        <li className='flex items-center md:mx-2 md:py-8 py-2 px-2 font-Syne text-white cursor-pointer sm:text-xl text-xs hover:text-orange-500 transition-all ease-in duration-100'>
-            {/* <Link to='/services' >Services</Link>  */}
-            {/* <p onClick={goToBtnServices}>Services</p> */}
+        {/* <li className='flex items-center md:mx-2 md:py-8 py-2 px-2 font-Syne text-white cursor-pointer sm:text-xl text-xs hover:text-orange-500 transition-all ease-in duration-100'>
+           
             {window.innerWidth > 600 ? (
                                 <p onClick={goToBtnServices}>Services</p>
                             ) : (
                                 <button onClick={()=>{goToBtnServicesMb(),toggleMenu()}}>Services</button>
                             )}
-        </li>
+        </li> */}
 
         <li className='flex items-center md:mx-2 md:py-8 py-2 px-2 font-Syne text-white cursor-pointer sm:text-xl text-xs hover:text-green-500 transition-all ease-in duration-100'>
             {/* <Link to='/skills' >Skills</Link>  */}

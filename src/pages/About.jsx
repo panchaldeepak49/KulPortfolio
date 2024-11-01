@@ -6,7 +6,7 @@ const About = () => {
     <div className='flex justify-center'>
     <div className='sm:mt-10 flex flex-col items-center bg-black/[0.9] w-[95%] sm:w-[80%] py-4 rounded-md'>
     {/* <h2 className='text-2xl sm:text-4xl font-semibold text-yellow-400'>About Me </h2> */}
-    <div className='text-2xl sm:text-4xl font-semibold text-yellow-400'>About Me </div>
+    <div className='text-2xl sm:text-4xl font-semibold text-yellow-300'>About Me </div>
     {/* <hr className='border-red/[0.2]'></hr> */}
      <div className='h-[1px] bg-red-600 w-[90%] mt-5'></div>
     <p className='mt-5 px-4 sm:px-8 text-white text-lg sm:text-lg'>
