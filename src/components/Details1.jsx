@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{ useEfect } from 'react'
 import { HiMiniArrowLongUp } from "react-icons/hi2";
 
 
+
 const Details1 = ({showModal1,setShowModal1}) => {
+
+  
     
   return (
     <>

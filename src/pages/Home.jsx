@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import mainImg from '/Images/w-laptop.png'
 import { useNavigate } from 'react-router-dom'
 import arrowImg from '/Images/arrow.png'
@@ -6,9 +6,15 @@ import About from './About';
 import Skills from './Skills';
 import WorkExp from './WorkExp';
 import Roles from './Roles';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Home = () => {
+
+  useEffect(()=>{
+    Aos.init({ duration: 1000 });
+  },[]);
 
     const goToBtnAbout = ()=>{
         window.scrollTo({ top: 630, behavior : "smooth" })
@@ -58,12 +64,12 @@ const Home = () => {
         </div>
         
         <div className='w-[50%] mt-8 sm:mt-0  sm:w-[40%] '>
-            <img src={mainImg} ></img>
+            <img data-aos="flip-left" src={mainImg} ></img>
         </div>
     </div>
     
      <div className='flex justify-center -mt-20 sm:-mt-60'>
-    <img src={arrowImg} className='w-[50%] sm:w-[60%]  xl:w-[27%]' ></img>
+    <img data-aos="fade-down-right" src={arrowImg} className='w-[50%] sm:w-[60%]  xl:w-[27%]' ></img>
     </div>
       
 

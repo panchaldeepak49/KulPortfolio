@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{ useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Roles = () => {
+
+  useEffect(()=>{
+    Aos.init({ duration: 1000 });
+  },[]);
+
   return (
     <>
-    <div className='mt-10 flex flex-col items-center '>
+    <div data-aos="flip-right" className='mt-10 flex flex-col items-center '>
     <div className=' w-[95%] sm:w-[80%] h-auto bg-black/[0.9] rounded-xl'>
 
     <div className=' font-semibold text-2xl sm:text-4xl py-6 flex flex-col justify-center items-center

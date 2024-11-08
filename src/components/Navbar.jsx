@@ -19,11 +19,11 @@ const Navbar = () => {
         window.scrollTo({ top: 270, behavior : "smooth" })
     }
 
-   const goToBtnServices = ()=>{
+   const goToBtnRoles = ()=>{
     window.scrollTo({ top: 1620, behavior : "smooth" })
    }
-   const goToBtnServicesMb = ()=>{
-    window.scrollTo({ top: 2420, behavior : "smooth" })
+   const goToBtnRolesMb = ()=>{
+    window.scrollTo({ top: 1970, behavior : "smooth" })
    }
 
 
@@ -53,12 +53,12 @@ const Navbar = () => {
 
   return (
     <>
-     <div className='sticky top-0 w-full h-20 bg-[#496989] flex justify-between items-center'>
+     <div className='sticky top-0 w-full z-50 h-20 bg-[#496989] flex justify-between items-center'>
         {/* <img src={''} className='md:h-19 sm:h-16 h-12 sm:ml-20 ml-5 cursor-pointer' ></img> */}
         <p className='ml-5 sm:ml-10 font-semibold text-[1.25rem] sm:text-[2rem] text-white hover:text-orange-400 cursor-pointer transition-all ease-in duration-200' onClick={goToBtnHome}>KPortfolio</p>
 
      <nav>
-     <span className='text-3xl max-[400px]:text-2xl sm:hidden block cursor-pointer ml-20 mr-4 mt-40' onClick={toggleMenu}>
+     <span className='text-3xl max-[400px]:text-2xl sm:hidden block cursor-pointer ml-20 mr-4 mt-48' onClick={toggleMenu}>
         {isMainMenuOpen ? <RxCross2 /> : <AiOutlineMenu />}
         </span>
 
@@ -83,6 +83,15 @@ const Navbar = () => {
                                 <button onClick={()=>{goToBtnServicesMb(),toggleMenu()}}>Services</button>
                             )}
         </li> */}
+        <li className='flex items-center md:mx-2 md:py-8 py-2 px-2 font-Syne text-white cursor-pointer sm:text-xl text-xs hover:text-green-500 transition-all ease-in duration-100'>
+            {/* <Link to='/skills' >Skills</Link>  */}
+            {/* <p onClick={goToBtnSkills}>Skills</p> */}
+            {window.innerWidth > 600 ? (
+                                <p onClick={goToBtnRoles}>Roles</p>
+                            ) : (
+                                <button onClick={()=>{goToBtnRolesMb(),toggleMenu()}}>Roles</button>
+                            )}
+        </li>
 
         <li className='flex items-center md:mx-2 md:py-8 py-2 px-2 font-Syne text-white cursor-pointer sm:text-xl text-xs hover:text-green-500 transition-all ease-in duration-100'>
             {/* <Link to='/skills' >Skills</Link>  */}
